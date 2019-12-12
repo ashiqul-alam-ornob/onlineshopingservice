@@ -9,7 +9,7 @@ use App\user;
 class usercontroller extends Controller
 {
 
-    function index(Request $request)
+   
   
     function add(Request $request){
         $user= new user;
